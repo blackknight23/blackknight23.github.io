@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../fonts/lmroman10-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../fonts/lmroman10-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../fonts/lmroman10-italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Roman';
+  src: url('../fonts/lmroman10-bolditalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  src: url('../fonts/lmsans10-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  src: url('../fonts/lmsans10-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Sans';
+  src: url('../fonts/lmsans10-oblique.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Mono';
+  src: url('../fonts/lmmono10-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Latin Modern Mono';
+  src: url('../fonts/lmmono10-italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;700&display=swap');
+
+.tamil-mukta-italic {
+  font-family: 'Mukta Malar', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.8;
+  font-size: 0.8em;
+}
+
+* {
+  font-family: "Latin Modern Sans", "CMU Serif", "Computer Modern", serif;
+}
+
+body {
+  max-width: 38em;
+  margin: 2em auto;
+  padding: 0 1em;
+  line-height: 1.5;
+  font-size: 1.15em;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  margin: 1.5em 0;
+}
+
+.date {
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+}
